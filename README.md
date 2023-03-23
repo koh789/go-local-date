@@ -1,1 +1,1 @@
-# go-localdates
+# go-local-date
