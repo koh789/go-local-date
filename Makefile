@@ -19,7 +19,6 @@ test-all: ## 静的解析＆テスト
 .PHONY: lint
 lint: ## 静的解析 golangci-lint
 	make install-golangci-lint
-	go clean ./...
 	golangci-lint cache clean
 	golangci-lint run
 
