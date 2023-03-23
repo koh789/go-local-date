@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - "**"
-env:
 jobs:
   test:
     name: Test
